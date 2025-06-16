@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Video Carousel Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<section class="navigation">
+  <nav class="navbar">
+    <div class="navlogo">
+      <h1 class="logoText">Fortune Machinery</h1>
+    </div>
+    <div class="nav-bar">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="products.html" class="nav-link">Products</a>
+      <a href="#" class="nav-link">Services</a>
+      <a href="#" class="nav-link">About Us</a>
+      <a href="contacts.html" class="nav-link">Contact Us</a>
+    </div>
+  </nav>
+</section>
+ <!-- Products Section -->
+  <section class="section-header">
+    <h1>Products</h1>
+    <p>Explore our wide range of innovative and high-quality products designed to meet your needs</p>
+  </section>
+    <div id="carousel-container"></div>
+  
+
+
+ 
+
+  <!-- Machine Gallery Section -->
+  <section class="section-header">
+    <h1>Machine Gallery</h1>
+    <p>Browse through our advanced machinery collection for agricultural and industrial solutions</p>
+  </section>
+
+<div id="gallery"></div>
+<button class="replay-btn"><i class="fas fa-redo-alt"></i></button>
+<div id="videoModal" style="display: none;">
+  <div id="modalContent">
+    <video id="modalVideo" controls autoplay></video>
+    <button id="closeModal">✖</button>
+  </div>
+</div>
+
+
+
+  <script src="products.js"></script>
+
+</body>
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-column">
+      <h3>Fortune Machinery</h3>
+      <p>Your trusted partner in cutting-edge equipment for agriculture and production industries.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="products.html#gallery">Machinery Gallery</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Case Studies</a></li>
+        <li><a href="contacts.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <ul class="contact-list">
+        <li><i class="fas fa-location-dot"></i>123 Industrial Avenue,<br>Technology Park, CA 94103</li>
+        <li><i class="fas fa-phone"></i>+1 (555) 123-4567</li>
+        <li><i class="fas fa-envelope"></i>info@fortunemachinery.com</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Newsletter</h4>
+      <p>Subscribe to receive updates on new machinery and special offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Fortune Machinery. All rights reserved.
+  </div>
+</footer>
+
+</html>

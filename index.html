@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Machinery</title>
+         <script src="https://kit.fontawesome.com/6345f33724.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+<body>
+    <section class="navigation">
+        <nav class="navbar">
+            <div class="navlogo">
+                <img src="" alt="" class="logo">
+                <h1 class="logoText"> Fortune Machinery</h1>
+            </div>
+            <div class="nav-bar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contacts.html" class="nav-link">Contact Us</a>
+            </div>
+        </nav> 
+    </section>
+    <section class="_hero">
+        <header class="hero">
+            <div class="title_description">
+                <h1 class="title_paragraph"><span class="P1">Drive Innovation with Fortune</span>
+        <span class="typeMachinery"></span>
+        <span class="P2">Machinery</span> 
+                </h1>
+                <h2 class="title_description_2">Explore World-Class Machines for Agriculture & Production</h2>
+            </div>
+            <div class="header_buttons">
+                <button class="headerBtn"><i class="fa-solid fa-magnifying-glass"></i> Browse Machines</button>
+                
+                 <a href="products.html#carousel-section" class="headerBtn"><i class="fa-solid fa-circle-play"></i>View Demos</a>
+            </div>
+            <div class="welcome_paragraph">
+                <p class="para1">Welcome to Fortune Machinery – your trusted partner in cutting-edge equipment 
+                    for agriculture and production industries.</p>
+            </div>
+        </header>
+    </section>
+    <section class="machine_categories">
+        <h1 class="categoryHeading">Machine Categories</h1>
+        <div class="main_divisions">
+            <div class="agricultural_machines">
+                <div class="agridescription">
+   <h1 class="agritext">Agricultural Machines</h1> <h3 class="agriparagraph">Specialized equipment designed for farming operations - 
+                        from soil preparation to harvesting.</h3>
+                    <a href="products.html#agricultural-machines" class="agributton">View Demos</a>
+                </div>                                    
+            </div>
+            <div class="production_machines">
+                <div class="proddescription">
+                    <h1 class="prodtext">Production Machines</h1>
+                    <h3 class="prodparagraph">Industrial equipment for manufacturing facilities, 
+                    enhancing productivity and precision.</h3>
+                    <a href="products.html#production-machines" class="prodbutton">View Demos</a>
+                </div>       
+            </div>
+        </div>
+    </section>
+    
+   
+  
+
+<section class="machine_Breakdown">
+  <h1>Machine Breakdown Dashboard</h1>
+
+  <!-- Main Tabs -->
+  <div class="main-tabs">
+    <button class="main-tab active" data-section="production">Production Machine Breakdown</button>
+    <button class="main-tab" data-section="agricultural">Agricultural Machine Breakdown</button>
+  </div>
+
+  <!-- Sub Tabs -->
+  <div id="sub-tabs-production" class="sub-tabs active"></div>
+  <div id="sub-tabs-agricultural" class="sub-tabs"></div>
+
+  <!-- Search and Trending -->
+<div class="search-bar">
+  <div class="trending">
+    <strong>Trending:</strong>
+    <span data-search="CNC">CNC</span>
+    <span data-search="Seeder">Seeder</span>
+    <span data-search="Router">Router</span>
+    <span data-search="Plough">Plough</span>
+  </div>
+  <div class="search-container">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Search machines...">
+  </div>
+</div>
+
+
+  <!-- Machine Content -->
+  <div class="machine-list" id="machineContent"></div>
+
+ </section>
+<!-- Partners Section -->
+<section class="partners-section">
+  <h2>Our Partners</h2>
+  <div class="partners-slider">
+    <div class="partners-track" id="partnersTrack"></div>
+  </div>
+</section>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-column">
+      <h3>Fortune Machinery</h3>
+      <p>Your trusted partner in cutting-edge equipment for agriculture and production industries.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="products.html#gallery">Machinery Gallery</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Case Studies</a></li>
+        <li><a href="contacts.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <ul class="contact-list">
+        <li><i class="fas fa-location-dot"></i>123 Industrial Avenue,<br>Technology Park, CA 94103</li>
+        <li><i class="fas fa-phone"></i>+1 (555) 123-4567</li>
+        <li><i class="fas fa-envelope"></i>info@fortunemachinery.com</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Newsletter</h4>
+      <p>Subscribe to receive updates on new machinery and special offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Fortune Machinery. All rights reserved.
+  </div>
+</footer>
+</html>
